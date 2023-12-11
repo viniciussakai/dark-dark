@@ -1,0 +1,35 @@
+<idea-plugin>
+  <id>com.vinicius</id>
+  <name>Dark Dark Theme</name>
+  <version>1.0.3</version>  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+
+  <vendor email="viniciussaaki0@gmail.com">Vinicius Sakai</vendor>
+
+  <description><![CDATA[
+    A dark theme based on <a href="https://github.com/vecheslav/darcula-solid">Darcula Solid</a>, but with pitch black background.
+      <br/><br/>
+
+      To install:
+      <ul>
+      <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li>
+      <li>Restart IDE</li>
+      <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
+      </ul>
+      <br/>
+      <a href="mailto:~patrickpichler/darcula-pitch-black@lists.sr.ht">Report an issue</a>  |  <a href="https://git.sr.ht/~patrickpichler/darcula-pitch-black">On sourcehut</a>
+      <br/><br/><br/>
+
+  ]]></description>
+
+  <idea-version since-build="191.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="4b61c21b-0699-4580-a3ef-a44763aae57f" path="/DarkDark.theme.json"/>
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
